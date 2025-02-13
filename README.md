@@ -13,7 +13,7 @@ Currently, two official plugins are available:
 This project is a movie booking platform built using HTML, CSS, Tailwind CSS, and React.js. It allows users to browse, add, edit, and remove movies dynamically.
 
 ## 🚀 Key Features :- 
-**✅ Movie Management – Users can add, edit, and delete movie details in real-time.**<br>
+**✅ Movie Management – Users can add, edit, and delete movie details in real-time.<br>**
 **✅ Responsive UI – Built with Tailwind CSS, ensuring a smooth experience across all devices.**<br>
 **✅ Dynamic Movie Listings – Display movie posters, movie name, ratings, voting, and languages.**
 **✅ React.js Powered – Ensures fast rendering and efficient state management.**
