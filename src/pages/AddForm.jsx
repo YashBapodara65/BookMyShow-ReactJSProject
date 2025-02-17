@@ -125,7 +125,7 @@ function AddForm() {
         theme="light"
       />
 
-      <NavbarCom val={"addform"} />
+      <NavbarCom val={"addform"} sfs={false} disp={false} />
 
       <div className="h-screen flex flex-col justify-center items-center">
         <Box
@@ -307,7 +307,7 @@ function AddForm() {
             </span>
           </div>
           </div>
-          <button className="bg-blue-600 text-white text-lg font-semibold py-1 w-full rounded-lg cursor-pointer">
+          <button className="bg-red-600 text-white text-lg font-semibold py-1 w-full rounded-lg cursor-pointer">
             Add Movie
           </button>
         </Box>

@@ -15,7 +15,6 @@ function EditForm() {
   const [res, setRes] = useState(null);
 
   const {id} = useParams();
-  // console.log(url.id);
 
   useEffect(()=>{
     let data = movieList.find((e) => e.id == id);

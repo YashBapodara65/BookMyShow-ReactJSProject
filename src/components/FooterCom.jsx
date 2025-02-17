@@ -133,4 +133,4 @@ function FooterCom() {
   )
 }
 
-export default FooterCom
+export default FooterCom;
