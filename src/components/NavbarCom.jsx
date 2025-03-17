@@ -124,8 +124,10 @@ function NavbarCom({ val, disp, sfs }) {
                   <form action="" className="w-[100%] relative">
                     <input
                       type="text"
+                      onChange={(e) => setSearch(e.target.value)}
                       className="w-[100%] outline-0 ps-10 py-1 border"
                       placeholder="Search for Movies, Events, Plays, Sports And Activities"
+                      value={search}
                     />
                     <SearchIcon
                       fontSize="small"
@@ -133,7 +135,7 @@ function NavbarCom({ val, disp, sfs }) {
                     />
                   </form>
                 </div>
-                <div className="col-span-1 flex items-center gap-10 px-5 py-3">
+                <div className="col-span-1 flex flex-wrap items-center gap-10 px-5 py-3">
                   <form action="">
                     <select
                       name=""
@@ -148,6 +150,38 @@ function NavbarCom({ val, disp, sfs }) {
                       <option value="Gandhinagar">Gandhinagar</option>
                     </select>
                   </form>
+                  <select
+                  name=""
+                  id=""
+                  onChange={(e) => setSelectGenres(e.target.value)}
+                  className="px-2 py-1 border border-b-gray-800 focus:outline-0 outline-0"
+                  defaultValue=""
+                >
+                  <option value="" disabled>
+                    Select a Genres
+                  </option>
+                  <option value="All">All</option>
+                  <option value="Drama">Drama</option>
+                  <option value="Comedy">Comedy</option>
+                  <option value="Action">Action</option>
+                  <option value="Romantic">Romantic</option>
+                  <option value="Adventure">Adventure</option>
+                  <option value="Family">Family</option>
+                  <option value="Historical">Historical</option>
+                  <option value="Horror">Horror</option>
+                  <option value="Musical">Musical</option>
+                  <option value="Sci-Fi">Sci</option>
+                </select>
+                <select
+                  name=""
+                  onChange={(e) => setSelectSortOrder(e.target.value)}
+                  defaultValue=""
+                  className="outlie-0 border border-b-gray-800 focus:outline-0 px-2 py-1"
+                  id=""
+                >
+                  <option value="asc">Ascending Order</option>
+                  <option value="desc">Descending Order</option>
+                </select>
                   {val != "home" ? (
                     <Link
                       to={"/"}
