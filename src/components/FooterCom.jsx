@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../../public/Logo.svg";
+import Logo from "../../public/logo.svg";
 import Icon1 from "../../public/icon1.svg";
 import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
 import ConfirmationNumberOutlinedIcon from '@mui/icons-material/ConfirmationNumberOutlined';
