@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import Logo from "../../public/Logo.svg";
+import Logo from "../../public/logo.svg";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
